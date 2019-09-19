@@ -13,7 +13,7 @@ public class Billboard : MonoBehaviour
         camTr = GameObject.Find("ARCamera").GetComponent<Transform>();
         tr = GetComponent<Transform>();
 		tr.localScale = new Vector3(-tr.localScale.x, tr.localScale.y, -tr.localScale.z);
-
+		//test
 
 	}
 
